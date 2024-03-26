@@ -172,7 +172,6 @@ nav ul li a {
 .subConteiner {
     width: 95%;
     height: auto;
-    padding: 20px 0;
     margin: 2.5% auto; /* Centralize o contêiner na horizontal */
     background-color: #d7d7d7;
     border-radius: 20px;
@@ -183,23 +182,12 @@ nav ul li a {
 }
 
 .main {
-    width: 90%; /* Alterado de auto para 100% */
+    width: 95%; /* Alterado de auto para 100% */
     flex-wrap: wrap;
     display: flex;
     margin: 15% auto;
     justify-content: center;
 }
-
-
-
-
-img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
 
 .cards {
     display: flex;
@@ -216,6 +204,9 @@ img {
     display: flex;
     padding: 0.8rem;
     justify-content: center;
+}
+.card img{
+    padding: 45px;
 }
 
 .card {
@@ -397,23 +388,25 @@ a:last-child{
     gap: 10px;
     margin-top: 50px;
     background: url(assets/Img/Background.png);
-    background-position: right;
-
+    background-position: center;
 }
 .conteinerBloco h2{
     font-family: var(--fonte-azonix);
     font-size: 2.5rem;
-    margin-top: 50px;
+    margin: 50px 40px;
     
 }
 .conteinerBloco h1{
     font-family: var(--fonte-azonix);
     font-size: 4rem;
+    margin: 20px 40px;
+
 }
 .conteinerBloco p{
     font-size: 3rem;
     margin-left: 50px;
-    margin: 20px 0;    
+    margin: 50px 40px;
+        
 }
 .containerContato{
     width: 85%;
@@ -423,7 +416,7 @@ a:last-child{
     height: 15rem;
     border-radius: 20px;
     display: grid;
-
+    box-shadow: 0 0 14px black;
 }
 .bloco{
     display: grid;
@@ -457,7 +450,7 @@ a:last-child{
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     margin-bottom: 10px; 
     align-items: center;
@@ -465,6 +458,11 @@ a:last-child{
     gap: 10px;
     justify-content: center;
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+.butaoContato:hover{
+    transform: scale(1.1);
 }
 .links{
     font-size: 20px;
@@ -772,6 +770,7 @@ a:last-child{
 
     .card {
         width: 97%;
+        height: 600px;
     }
     .subConteiner{
         width: 98%;
@@ -833,7 +832,7 @@ a:last-child{
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1800px){
+@media (min-width: 1025px) and (max-width: 1600px){
     
     #conteiner2{
         height: auto;
@@ -865,6 +864,9 @@ a:last-child{
         font-size: 2rem;
         margin: 20px 0 60px 50px;
 
+    }
+    .card{
+        height: 550px;
     }
     .containerContato{
         height: auto;
