@@ -90,9 +90,11 @@ nav ul li a {
 
 #conteudo {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 5%;
     color: white;
+    width: 70%;
+
 }
 
 #conteudo h2 {
@@ -457,7 +459,8 @@ a:last-child{
         height: 80vh;
     }
     #conteudo{
-        top: 20% ;
+        top: 15%;
+        width: 70%;
     }
     #conteudo h2 {
         font-size: 1.8rem;
