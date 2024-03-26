@@ -571,7 +571,9 @@ a:last-child{
     #conteudo p {
         font-size: 1.5rem;
     }
-
+    .barra{
+        width: 25rem;
+    }
     .conteinerConteudo h2 {
         font-size: 3rem;
     }
@@ -656,7 +658,8 @@ a:last-child{
         font-size: 5rem;
     }
 
-    .arrow {
+    .barra{
+        width: 35rem;
     }
 
     .main {
