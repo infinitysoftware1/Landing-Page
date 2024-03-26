@@ -663,8 +663,7 @@ a:last-child{
         line-height: 7rem;
     }
 
-    .arrow {
-    }
+    
 
     .main{
         justify-content: center;
@@ -695,7 +694,28 @@ a:last-child{
     .conteinerBloco p{
         font-size: 1.5rem
     }
+    .containerContato{
+        height: auto;
+        padding: 0;
+    }
+    .rodapeInformacoes{
+        font-size: 1rem;
+        margin: 20px 0 20px 15px;
+        
 
+    }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+    }
+    .redesSociais{
+        margin-right: 15px;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .links{
+        font-size: 15px;
+    }
     
 }
 
