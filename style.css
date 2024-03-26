@@ -110,8 +110,13 @@ nav ul li a {
     height: auto;
 }
 
+
 .conteinerConteudo {
     margin: 5% 0 5% 5%;
+}
+.barra{
+    border: 2px solid gray;
+    width: 50rem;
 }
 
 .conteinerConteudo h2 {
@@ -122,15 +127,17 @@ nav ul li a {
 
 .conteinerConteudo p {
     font-family: var(--fonte-montserrat);
-    margin-bottom: 7rem;
     font-size: 2.5rem;
+    margin-bottom: 4.5rem;
+
 }
 
 .conteinerConteudo h1 {
     font-family: var(--fonte-azonix);
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     font-size: 6rem;
-    line-height: 9rem;
+    line-height: 7rem;
+    margin-top: 4.5rem;
 }
 
 .arrow {
@@ -140,7 +147,7 @@ nav ul li a {
     display: flex;
     width: fit-content;
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     color: #ffffff;
     transition: transform .3s ease-in-out;
 }
@@ -347,10 +354,6 @@ a:last-child{
     margin-bottom: 1em;
     font-size: 18px;
 }
- 
- 
-/* CSS for messagin link */
- 
 .effect {
     text-align: center;
     display: inline-block;
@@ -386,7 +389,7 @@ a:last-child{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
     margin-top: 50px;
     background: url(assets/Img/Background.png);
     background-position: right;
@@ -395,19 +398,19 @@ a:last-child{
 .conteinerBloco h2{
     font-family: var(--fonte-azonix);
     font-size: 2.5rem;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px;
+    
 }
 .conteinerBloco h1{
     font-family: var(--fonte-azonix);
     font-size: 4rem;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px;
 }
 .conteinerBloco p{
     font-size: 3rem;
     margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px;
+    
 }
 
 
@@ -418,9 +421,8 @@ a:last-child{
     width: 80%;
     border-radius: 20px;
     box-shadow: 0 0 25px black;
-    
-
 }
+
 
 @media (min-width: 56rem) {
     .cards_item {
@@ -444,14 +446,14 @@ a:last-child{
         font-size: 1.5rem;
     }
     #conteudo{
-        top: 15% ;
+        top: 10% ;
     }
     #conteudo h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #conteudo p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .conteinerConteudo h2 {
@@ -460,12 +462,11 @@ a:last-child{
 
     .conteinerConteudo p {
         font-family: var(--fonte-montserrat);
-        margin-bottom: 7rem;
         font-size: 2.5rem;
     }
 
     .conteinerConteudo h1 {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     .arrow {
@@ -478,12 +479,13 @@ a:last-child{
 
     .conteinerConteudo p {
         font-size: 1.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .conteinerConteudo h1 {
         font-size: 3.5rem;
-        line-height: 6rem;
+        line-height: 5rem;
+        margin-top: 1.5rem;
     }
 
     .arrow {
@@ -502,7 +504,6 @@ a:last-child{
     
     .conteinerBloco{
         background-position: center;
-        height: 70vh;
     }
     .conteinerBloco h2{
         font-size: 1.5rem;
@@ -534,17 +535,29 @@ a:last-child{
     nav ul li a {
         font-size: 1.5rem;
     }
+    .iconMenu {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 2px;
+    }
 
     #conteudo {
         top: 20%;
     }
 
     #conteudo h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #conteudo p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .conteinerConteudo h2 {
@@ -583,7 +596,6 @@ a:last-child{
     }
     .conteinerBloco{
         background-position: center bottom;
-        height: 70vh;
     }
     .conteinerBloco h2{
         font-size: 2rem
