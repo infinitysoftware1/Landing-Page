@@ -191,7 +191,7 @@ nav ul li a {
 
 
 
-.card_img img {
+img {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
@@ -212,7 +212,7 @@ nav ul li a {
 
 .cards_item {
     display: flex;
-    padding: 1rem;
+    padding: 0.8rem;
     justify-content: center;
 }
 
@@ -224,15 +224,19 @@ nav ul li a {
     flex-direction: column;
     overflow: hidden;
     align-items: center;
-    height: 450px;
-    width: 400px;
+    height: 500px;
+    width: 450px;
 }
 
 .card_content {
     height: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(20deg,#47505a,var(--cor-fundo));
-    
+    width: 100%;
+    line-height: 2rem;
 }
 .card_title {
     color: #ffffff;
@@ -245,7 +249,7 @@ nav ul li a {
 
 .card_text {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;
     font-weight: 400;
@@ -315,12 +319,6 @@ nav ul li a {
 .username{
     font-size: 1em;
     color: #9e9e9e;
-}
- 
-.links{
-    display: flex;
-    justify-content: center;
-    margin: 1.5em 0;
 }
  
 a{
@@ -417,15 +415,61 @@ a:last-child{
     margin: 50px;
     
 }
-
-
-.conteinerContato{
+.containerContato{
+    width: 85%;
     background-color: white;
-    margin-top: 100px;
-    height: 250px;
-    width: 80%;
+    margin: 70px 0;
+    padding: 20px;
+    height: 15rem;
     border-radius: 20px;
-    box-shadow: 0 0 25px black;
+    display: grid;
+
+}
+.bloco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rodapeInformacoes {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 35px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.rodapeInformacoes p{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.rodapeInformacoes ion-icon{
+    font-size: 30px;
+}
+.redesSociais{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: center;
+}
+.butaoContato{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.links{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 
@@ -470,9 +514,6 @@ a:last-child{
         font-size: 1.6rem;
         line-height: 3rem;
     }
-    
-    
-
     .conteinerConteudo h2 {
         font-size: 4rem;
     }
@@ -530,6 +571,28 @@ a:last-child{
         font-size: 1.5rem;
         margin-left: 1rem;
 
+    }
+    .containerContato{
+        height: auto;
+        padding: 0;
+    }
+    .rodapeInformacoes{
+        font-size: 1rem;
+        margin: 20px 0 20px 15px;
+        
+
+    }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+    }
+    .redesSociais{
+        margin-right: 15px;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .links{
+        font-size: 15px;
     }
     
 }
