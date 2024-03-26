@@ -762,7 +762,7 @@ a:last-child{
     }
 
     .main {
-        width: 97%;
+        width: 100%;
     }
 
     .cards_item {
@@ -771,7 +771,17 @@ a:last-child{
     }
 
     .card {
-        width: 90%;
+        width: 97%;
+    }
+    .subConteiner{
+        width: 98%;
+    }
+    .card_content{
+        padding: 10px;
+    }
+    .card_content p{
+        font-size: 1.1rem;
+        padding: 0;
     }
     .integrantes{
         margin: 0;
@@ -781,7 +791,7 @@ a:last-child{
     }
     .container{
         padding: 1rem;
-        width: 15em;
+        width: 18em;
     }
     .conteinerBloco{
         background-position: center bottom;
@@ -823,7 +833,7 @@ a:last-child{
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1700px){
+@media (min-width: 1025px) and (max-width: 1800px){
     
     #conteiner2{
         height: auto;
@@ -833,12 +843,12 @@ a:last-child{
     }
     .integrantes{
         margin: 0;
-        width: 100%;
+        width: 90%;
         margin: 5% 0 5% 0;
     }
     .container{
         padding: 1rem;
-        width: 16em;
+        width: 20em;
     }
     .conteinerBloco{
         background-position: center;
@@ -850,7 +860,6 @@ a:last-child{
     .conteinerBloco h1{
         font-size: 4.5rem;
         margin: 40px 0 40px 50px;
-
     }
     .conteinerBloco p{
         font-size: 2rem;
@@ -867,8 +876,7 @@ a:last-child{
         
 
     }
-    .bloco{
-    }
+    
     .redesSociais{
         margin-right: 15px;
         align-items: center;
