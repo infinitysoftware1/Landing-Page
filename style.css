@@ -90,7 +90,7 @@ nav ul li a {
 
 #conteudo {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 5%;
     color: white;
 }
@@ -98,11 +98,11 @@ nav ul li a {
 #conteudo h2 {
     font-family: var(--fonte-azonix);
     margin-bottom: 20px;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 #conteudo p {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 #conteiner2 {
@@ -141,14 +141,14 @@ nav ul li a {
 }
 
 .arrow {
-    font-size: 5rem;
+    font-size: 2.5rem;
     background-color: var(--cor-fundo);
     align-items: center;
     display: flex;
     width: fit-content;
     border-radius: 50%;
-    padding: 5px;
     color: #ffffff;
+    padding: 15px;
     transition: transform .3s ease-in-out;
 }
 
@@ -166,10 +166,11 @@ nav ul li a {
 }
 
 .subConteiner {
-    width: 90%;
+    width: 95%;
     height: auto;
+    padding: 20px 0;
     margin: 2.5% auto; /* Centralize o contêiner na horizontal */
-    background-color: #ffffff;
+    background-color: #d7d7d7;
     border-radius: 20px;
     box-shadow: 0 0 15px black;
     display: flex;
@@ -178,10 +179,11 @@ nav ul li a {
 }
 
 .main {
-    width: 95%; /* Alterado de auto para 100% */
-    margin: 0 auto;
+    width: 90%; /* Alterado de auto para 100% */
     flex-wrap: wrap;
-
+    display: flex;
+    margin: 15% auto;
+    justify-content: center;
 }
 
 
@@ -208,7 +210,7 @@ nav ul li a {
 
 .cards_item {
     display: flex;
-    padding: 1.25rem;
+    padding: 1rem;
     justify-content: center;
 }
 
@@ -220,14 +222,15 @@ nav ul li a {
     flex-direction: column;
     overflow: hidden;
     align-items: center;
-    height: 400px;
+    height: 450px;
     width: 400px;
 }
 
 .card_content {
     height: 100%;
     padding: 1.5rem;
-    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+    background-image: linear-gradient(20deg,#47505a,var(--cor-fundo));
+    
 }
 .card_title {
     color: #ffffff;
@@ -383,7 +386,7 @@ a:last-child{
 
 .conteinerBloco {
     background-color: white;
-    height: 80vh;
+    height: 80vh auto;
     width: 85%;
     box-shadow: 0 0 25px black;
     border-radius: 20px;
@@ -449,11 +452,14 @@ a:last-child{
         top: 10% ;
     }
     #conteudo h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #conteudo p {
-        font-size: 1.5rem;
+        font-size: 1.10rem;
+    }
+    .barra{
+        width: 18rem;
     }
 
     .conteinerConteudo h2 {
@@ -466,11 +472,10 @@ a:last-child{
     }
 
     .conteinerConteudo h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .arrow {
-        font-size: 5rem;
     }
 
     .conteinerConteudo h2 {
@@ -489,7 +494,6 @@ a:last-child{
     }
 
     .arrow {
-        font-size: 5rem;
     }
 
     .card{
@@ -575,7 +579,6 @@ a:last-child{
     }
 
     .arrow {
-        font-size: 5rem;
     }
 
     .main{
@@ -646,7 +649,6 @@ a:last-child{
     }
 
     .arrow {
-        font-size: 5rem;
     }
 
     .main {
