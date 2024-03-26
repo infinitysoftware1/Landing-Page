@@ -823,7 +823,7 @@ a:last-child{
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1450px){
+@media (min-width: 1025px) and (max-width: 1600px){
     
     #conteiner2{
         height: auto;
