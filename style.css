@@ -38,8 +38,8 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 25px;
-    font-size: 20px;
+    margin-right: 35px;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -253,24 +253,24 @@ nav ul li a {
     justify-content: space-around;
     flex-wrap: wrap;
     height: fit-content;
-    margin:5% 0 5% 0;
+    margin:5% 5%;
 }
 
 .container{
-    width: 20em;
+    width: 22em;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     border-radius: 1em;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
-    padding: 2rem;
+    padding: 1rem;
 
 }
  
 .user-image{
     padding: 2em 0;
-    background-image: linear-gradient(70deg,#61A1DD,var(--cor-fundo));
+    background-image: linear-gradient(70deg,#47505a,var(--cor-fundo));
     border-radius: 1.5em 1.5em 0 0;
 
 }
@@ -443,13 +443,15 @@ a:last-child{
     nav ul li a {
         font-size: 1.5rem;
     }
-
+    #conteudo{
+        top: 15% ;
+    }
     #conteudo h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #conteudo p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .conteinerConteudo h2 {
