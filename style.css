@@ -99,7 +99,7 @@ nav ul li a {
 
 #conteudo h2 {
     font-family: var(--fonte-azonix);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 5rem;
 }
 
@@ -444,19 +444,19 @@ a:last-child{
     }
 
     nav ul li {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     nav ul li a {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .banner{
-        height: 80vh;
+        height: 100%;
         object-fit: cover;
 
     }
     #conteiner1{
-        height: 80vh;
+        height: 90vh;
     }
     #conteudo{
         top: 15%;
@@ -536,16 +536,20 @@ a:last-child{
 
 /* Para dispositivos de tela pequena */
 @media (min-width: 479px) and (max-width: 767px) {
+
+    header{
+        padding: 0;
+    }
     .logoTipo {
-        width: 60px;
+        width: 80px;
     }
 
     nav ul li {
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     nav ul li a {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .iconMenu {
         display: inline-block;
@@ -559,17 +563,25 @@ a:last-child{
         width: 30px;
         height: 2px;
     }
-
-    #conteudo {
-        top: 20%;
+    .banner{
+        height: 100%;
+        object-fit: cover;
+    }
+    #conteiner1{
+        height: 90vh;
+    }
+    #conteudo{
+        top: 15%;
+        width: 70%;
+        line-height: 3rem;
     }
 
     #conteudo h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #conteudo p {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .barra{
         width: 25rem;
