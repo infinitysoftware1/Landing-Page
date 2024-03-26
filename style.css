@@ -141,14 +141,14 @@ nav ul li a {
 }
 
 .arrow {
-    font-size: 2.5rem;
+    font-size: 3rem;
     background-color: var(--cor-fundo);
     align-items: center;
     display: flex;
     width: fit-content;
     border-radius: 50%;
     color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     transition: transform .3s ease-in-out;
 }
 
@@ -448,19 +448,27 @@ a:last-child{
     nav ul li a {
         font-size: 1.5rem;
     }
+    .banner{
+        height: 80vh;
+        object-fit: cover;
+
+    }
+    #conteiner1{
+        height: 80vh;
+    }
     #conteudo{
-        top: 10% ;
+        top: 20% ;
     }
     #conteudo h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     #conteudo p {
-        font-size: 1.10rem;
+        font-size: 1.6rem;
+        line-height: 3rem;
     }
-    .barra{
-        width: 18rem;
-    }
+    
+    
 
     .conteinerConteudo h2 {
         font-size: 4rem;
@@ -475,9 +483,9 @@ a:last-child{
         font-size: 3.5rem;
     }
 
-    .arrow {
+    .barra{
+        width: 12rem;
     }
-
     .conteinerConteudo h2 {
         font-size: 2rem;
     }
@@ -488,12 +496,9 @@ a:last-child{
     }
 
     .conteinerConteudo h1 {
-        font-size: 3.5rem;
-        line-height: 5rem;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
         margin-top: 1.5rem;
-    }
-
-    .arrow {
     }
 
     .card{
