@@ -403,19 +403,17 @@ a:last-child{
 .conteinerBloco h2{
     font-family: var(--fonte-azonix);
     font-size: 2.5rem;
-    margin: 50px;
+    margin-top: 50px;
     
 }
 .conteinerBloco h1{
     font-family: var(--fonte-azonix);
     font-size: 4rem;
-    margin: 50px;
 }
 .conteinerBloco p{
     font-size: 3rem;
     margin-left: 50px;
-    margin: 50px;
-    
+    margin: 20px 0;    
 }
 .containerContato{
     width: 85%;
@@ -530,7 +528,7 @@ a:last-child{
     }
 
     .barra{
-        width: 12rem;
+        width: 15rem;
     }
     .conteinerConteudo h2 {
         font-size: 2rem;
