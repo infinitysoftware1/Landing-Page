@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="shortcut icon" href="assets/Img/logoArredondada.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Slick Carousel -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- <div id="saudacao">
+        <h2>Olá, bem-vindo!</h2>
+      </div>       -->
+
+
+    <header>
+        <div class="logo">
+            <img src="assets/Img/logoArredondada.png" alt="Logo do site" class="logoTipo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><ion-icon name="logo-instagram" class="it"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github" class="gh"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-youtube" class="tb"></ion-icon></a></li>
+            </ul>
+        </nav>
+
+        <div class="iconMenu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <div id="conteiner1">
+        <img src="assets/Img/Container1.jpg" alt="" class="banner">
+        <div id="conteudo">
+            <h2>O que somos</h2>
+            <p>Olá, somos a <br> Infinity Software e <br> Desenvolvemos <br> Software com <br> Qualidade. </p>
+        </div>
+    </div>
+
+    <div id="conteiner2">
+        <div class="conteinerConteudo">
+            <h2>O que vamos fazer</h2>
+            <p>Nós adoramos criar experiências digitais agradáveis <br>
+                e centradas no ser humano.</p>
+            <div class="barra"></div>
+            <div class="container-title">
+                <h1>Pensar. Criar. <br> Resolver.</h1>
+            </div>
+            <div class="arrow" id="arrow" onclick="scrollToDiv('bloquinho')">
+                <ion-icon name="arrow-forward-outline" class="arrow-int"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="conteiner3">
+        <div class="subConteiner">
+
+            <div class="main">
+                <ul class="cards">
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"><img src="assets/Img/alvo.png"></div>
+                            <div class="card_content">
+                                <h2 class="card_title">Missão</h2>
+                                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"><img src="assets/Img/olho.png"></div>
+                            <div class="card_content">
+                                <h2 class="card_title">Visão</h2>
+                                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"><img src="assets/Img/diamante.png"></div>
+                            <div class="card_content">
+                                <h2 class="card_title">Valores</h2>
+                                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="conteiner4">
+        <div class="integrantes">
+
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/Airton.jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Airton Veloso</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/20240228_084207.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Antônio Marcos</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/Serjão.jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Cicero Gilson</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/flavia.jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Flávia Januario</h3>
+                    <p class="details">
+                        Scrum Master
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/Gaby(1).jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Gabrielle</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/Kaio.jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Kaio Pereira</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Saiba
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="user-image">
+                    <img src="assets/Img/Selumiel(1).jpg" alt="this image contains user-image">
+                </div>
+
+                <div class="content">
+                    <h3 class="name">Selumiel</h3>
+                    <p class="details">
+                        Developer
+                    </p>
+
+                    <a class="effect effect-4" href="#">
+                        Sobre
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="conteiner5">
+        <div class="conteinerBloco">
+            <h2>Diga, olá</h2>
+            <h1>Vamos Trabalhar <br> Juntos.</h1>
+            <p>Gostaria muito de me encontrar <br> com você para discutir seu projeto <br> e possíveis colaborações.</p>
+        </div>
+
+        <div class="conteinerContato">
+            <footer>
+                <p><ion-icon name="mail-outline"></ion-icon>infinitesoftware@gmail.com</p>
+                <p><ion-icon name="home-outline"></ion-icon>Araripe, Ceará</p>
+                <p><ion-icon name="mail-outline"></ion-icon>+55 88 98100-0000</p>
+
+                <div class="links">
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
