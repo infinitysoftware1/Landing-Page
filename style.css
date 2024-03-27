@@ -42,12 +42,15 @@ nav ul {
 nav ul li {
     margin-right: 35px;
     font-size: 18px;
+
 }
 
 nav ul li a {
-    color: white;
     align-items: center;
     display: flex;
+    color: #cfcfcf;
+    font-size: 2em;
+    margin-right: 1em;
 }
 
 .iconMenu {
@@ -310,42 +313,7 @@ nav ul li a {
     margin-bottom: 1rem;
 }
  
-.username{
-    font-size: 1em;
-    color: #9e9e9e;
-}
- 
-a{
-    text-decoration: none;
-    color: #565656;
-    transition: all 0.3s;
-    font-size: 2em;
-    margin-right: 1.2em;
-}
- 
-a:last-child{
-    margin: 0;
-}
- 
-.insta:hover{
-    color:rgb(255, 70, 101);
-    transform: scale(2,2);
-}
- 
-.git:hover{
-    color:rgb(0, 0, 0);
-    transform: scale(2,2);
-}
- 
-.linkedin:hover{
-    color:rgba(4, 0, 253, 0.842);
-    transform: scale(2,2);
-}
- 
-.facebook:hover{
-    color:rgb(4, 0, 255);
-    transform: scale(2,2);
-}
+
  
 .details{
     margin-bottom: 1em;
@@ -469,6 +437,12 @@ a:last-child{
     font-size: 20px;
     margin-right: 20px;
     margin-top: 30px;
+}
+.links a{
+    align-items: center;
+    color: #4e4e4e;
+    font-size: 2em;
+    margin-left: 1em;
 }
 
 
