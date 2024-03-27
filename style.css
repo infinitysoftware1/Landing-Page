@@ -512,7 +512,7 @@ a:last-child{
 
     #conteudo p {
         font-size: 1.6rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
     }
     .conteinerConteudo h2 {
         font-size: 4rem;
@@ -633,7 +633,7 @@ a:last-child{
     #conteudo{
         top: 10%;
         width: 70%;
-        line-height: 3rem;
+        line-height: 2.5rem;
     }
 
     #conteudo h2 {
