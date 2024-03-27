@@ -102,11 +102,11 @@ nav ul li a {
 #conteudo h2 {
     font-family: var(--fonte-azonix);
     margin-bottom: 40px;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 #conteudo p {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 #conteiner2 {
@@ -478,9 +478,7 @@ a:last-child{
 }
 
 @media (max-width: 478px) {
-    header{
-        padding: 0;
-    }
+    
     .logoTipo {
         width: 60px;
     }
@@ -497,11 +495,15 @@ a:last-child{
         object-fit: cover;
 
     }
+    .banner{
+        height: 100%;
+        object-fit: cover;
+    }
     #conteiner1{
         height: 90vh;
     }
     #conteudo{
-        top: 15%;
+        top: 10%;
         width: 70%;
     }
     #conteudo h2 {
@@ -598,11 +600,8 @@ a:last-child{
 /* Para dispositivos de tela pequena */
 @media (min-width: 479px) and (max-width: 767px) {
 
-    header{
-        padding: 0;
-    }
     .logoTipo {
-        width: 80px;
+        width: 70px;
     }
 
     nav ul li {
@@ -632,7 +631,7 @@ a:last-child{
         height: 90vh;
     }
     #conteudo{
-        top: 15%;
+        top: 10%;
         width: 70%;
         line-height: 3rem;
     }
@@ -677,7 +676,7 @@ a:last-child{
     }
     .container{
         padding: 0.5rem;
-        width: 14em;
+        width: 20em;
     }
     .conteinerBloco{
         background-position: center bottom;
@@ -723,16 +722,24 @@ a:last-child{
 
 /* Para tablets em modo paisagem com largura entre 768px e 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
+    
     .logoTipo {
         width: 70px;
     }
 
     nav ul li {
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     nav ul li a {
-        font-size: 25px;
+        font-size: 30px;
+    }
+    .banner{
+        height: 100%;
+        object-fit: cover;
+    }
+    #conteiner1{
+        height: 90vh;
     }
 
     #conteudo h2 {
@@ -834,6 +841,7 @@ a:last-child{
 
 @media (min-width: 1025px) and (max-width: 1600px){
     
+
     #conteiner2{
         height: auto;
     }
