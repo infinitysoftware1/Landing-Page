@@ -546,7 +546,8 @@ a:last-child{
     }
 
     .card{
-        width: 20rem;
+        width: 23rem;
+        height: 550px;
     }
     .main{
         justify-content: center;
