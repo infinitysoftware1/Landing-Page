@@ -95,7 +95,7 @@ nav ul li a {
     top: 15%;
     left: 5%;
     color: white;
-    width: 70%;
+    width: 50%;
 
 }
 
@@ -107,6 +107,7 @@ nav ul li a {
 
 #conteudo p {
     font-size: 3.5rem;
+    font-family: var(--fonte-montserrat);
 }
 
 #conteiner2 {
@@ -634,7 +635,7 @@ a:last-child{
     #conteudo{
         top: 10%;
         width: 70%;
-        line-height: 2.5rem;
+        line-height: 3rem;
     }
 
     #conteudo h2 {
@@ -739,6 +740,10 @@ a:last-child{
         height: 100%;
         object-fit: cover;
     }
+    #conteudo{
+        width: 60%;
+        
+    }
     #conteiner1{
         height: 90vh;
     }
@@ -748,7 +753,8 @@ a:last-child{
     }
 
     #conteudo p {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        line-height: 3.9rem;
     }
 
     .conteinerConteudo h2 {
