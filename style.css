@@ -133,12 +133,11 @@ nav ul li a {
 
 
 .conteinerConteudo {
-    padding: 30px 60px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 100vw;
-    height: auto;
 }
 .barra{
     border: 2px solid gray;
