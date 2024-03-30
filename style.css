@@ -23,11 +23,11 @@ header {
     position: relative;
     height: 100px;
     justify-content: space-between;
+    padding: 30px;
 }
 
 .logoTipo {
-    max-width: 100%;
-    margin-left: 20px;
+    max-width: 90px;
 }
 
 nav {
@@ -37,12 +37,11 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    gap: 30px;
 }
 
 nav ul li {
-    margin-right: 35px;
     font-size: 18px;
-
 }
 
 nav ul li a {
@@ -50,7 +49,7 @@ nav ul li a {
     display: flex;
     color: #cfcfcf;
     font-size: 2em;
-    margin-right: 1em;
+    
 }
 
 .iconMenu {
@@ -84,6 +83,8 @@ nav ul li a {
 #conteiner1 {
     position: relative;
     width: 100%;
+    height: 100vh;
+    
 }
 
 .banner {
@@ -92,21 +93,24 @@ nav ul li a {
     height: 100vh;
     object-fit: cover;
     object-position: center;
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
-
-
 #conteudo {
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 20vh;
+    left: 0;
     color: white;
-    width: 90%;
+    width: 100%;
     display: flex;
+    padding: 0 50px;
+    height: auto;
 }
 .boxes{
     width: 100%;
 }
+    
 
 
 #conteudo h2 {
@@ -475,25 +479,17 @@ nav ul li a {
     .banner{
         height: 100%;
         object-fit: cover;
-
+        object-position: center;
     }
-    .banner{
-        height: 100%;
-        object-fit: cover;
-    }
-    #conteiner1{
-        height: 90vh;
-    }
+    
     #conteudo{
         display: flex;
         flex-direction: column;
-        top: 10%;
         align-items: center;
         gap: 50px;
+        top: 5vh;
     }
-    .boxes{
-        width: 100%;
-    }
+    
     #conteudo h2 {
         font-size: 2.5rem;
     }
@@ -612,30 +608,23 @@ nav ul li a {
         width: 30px;
         height: 2px;
     }
-    .banner{
-        height: 100%;
-        object-fit: cover;
-    }
-    #conteiner1{
-        height: 90vh;
-    }
+    
+    
     #conteudo{
         display: flex;
         flex-direction: column;
-        top: 10%;
+        top: 5vh;
         align-items: center;
-        gap: 50px;
+        gap: 30px;
     }
-    .boxes{
-        width: 100%;
-    }
+    
 
     #conteudo h2 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
     }
 
     #conteudo p {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     .barra{
         width: 25rem;
@@ -728,23 +717,18 @@ nav ul li a {
     nav ul li a {
         font-size: 30px;
     }
-    .banner{
-        height: 100%;
-        object-fit: cover;
-    }
+    
     #conteudo{
         display: flex;
         flex-direction: column;
         align-items: center;
-        top: 10%;
-        gap: 50px;
+        top: 5vh;
+        gap: 30px;
     }
     .boxes{
-        width: 70%;
+        width: 80%;
     }
-    #conteiner1{
-        height: 90vh;
-    }
+   
 
     #conteudo h2 {
         font-size: 2.5rem;
