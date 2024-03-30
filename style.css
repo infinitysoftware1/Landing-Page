@@ -126,12 +126,19 @@ nav ul li a {
 
 #conteiner2 {
     width: 100%;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 
 .conteinerConteudo {
-    margin: 5% 0 5% 5%;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100vw;
+    height: 100vh;
 }
 .barra{
     border: 2px solid gray;
@@ -140,34 +147,30 @@ nav ul li a {
 
 .conteinerConteudo h2 {
     font-family: var(--fonte-azonix);
-    margin-bottom: 2rem;
     font-size: 4rem;
 }
 
 .conteinerConteudo p {
     font-family: var(--fonte-montserrat);
     font-size: 2.5rem;
-    margin-bottom: 4.5rem;
 
 }
 
 .conteinerConteudo h1 {
     font-family: var(--fonte-azonix);
-    margin-bottom: 5rem;
     font-size: 6rem;
     line-height: 7rem;
-    margin-top: 4.5rem;
 }
 
 .arrow {
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: var(--cor-fundo);
     align-items: center;
     display: flex;
     width: fit-content;
     border-radius: 50%;
     color: #ffffff;
-    padding: 20px;
+    padding: 25px;
 }
 
 
@@ -492,35 +495,23 @@ nav ul li a {
         font-size: 2.2rem;
         line-height: 3.5rem;
     }
+    .barra{
+        width: 20rem;
+    }
+    .conteinerConteudo{
+        padding: 20px;
+    }
     .conteinerConteudo h2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .conteinerConteudo p {
-        font-family: var(--fonte-montserrat);
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .conteinerConteudo h1 {
         font-size: 3.5rem;
-    }
-
-    .barra{
-        width: 15rem;
-    }
-    .conteinerConteudo h2 {
-        font-size: 2rem;
-    }
-
-    .conteinerConteudo p {
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .conteinerConteudo h1 {
-        font-size: 2.5rem;
-        line-height: 3.5rem;
-        margin-top: 1.5rem;
+        line-height: 5rem;
     }
 
     .card{
@@ -623,18 +614,20 @@ nav ul li a {
     .barra{
         width: 25rem;
     }
+    .conteinerConteudo{
+        padding: 40px;
+    }
     .conteinerConteudo h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .conteinerConteudo p {
         font-size: 2rem;
-        margin-bottom: 4rem;
     }
 
     .conteinerConteudo h1 {
-        font-size: 5rem;
-        line-height: 7rem;
+        font-size: 3.5rem;
+        line-height: 4.5rem;
     }
 
     
@@ -732,9 +725,10 @@ nav ul li a {
         font-size: 2.5rem;
         line-height: 3.5rem;
     }
+    
 
     .conteinerConteudo h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .conteinerConteudo p {
@@ -742,7 +736,7 @@ nav ul li a {
     }
 
     .conteinerConteudo h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     .barra{
