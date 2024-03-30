@@ -136,7 +136,7 @@ nav ul li a {
     padding: 30px 60px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     width: 100vw;
     height: auto;
 }
