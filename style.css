@@ -545,16 +545,16 @@ nav ul li a {
     }
     .conteinerBloco h2{
         font-size: 1.5rem;
-        margin-left: 1rem;
+        margin: 1.5rem 1rem;
     }
     .conteinerBloco h1{
         font-size: 2rem;
-        margin-left: 1rem;
+        margin: 1rem;
 
     }
     .conteinerBloco p{
         font-size: 1.5rem;
-        margin-left: 1rem;
+        margin: 1.5rem 1rem;
 
     }
     .containerContato{
