@@ -104,7 +104,7 @@ nav ul li a {
     color: white;
     width: 100%;
     display: flex;
-    padding: 0 50px;
+    padding: 0 40px;
     height: auto;
 }
 .boxes{
@@ -478,8 +478,6 @@ nav ul li a {
     }
     .banner{
         height: 100%;
-        object-fit: cover;
-        object-position: center;
     }
     
     #conteudo{
@@ -487,7 +485,7 @@ nav ul li a {
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        top: 5vh;
+        top: 10vh;
     }
     
     #conteudo h2 {
@@ -496,7 +494,7 @@ nav ul li a {
 
     #conteudo p {
         font-size: 2.2rem;
-        line-height: 3rem;
+        line-height: 3.5rem;
     }
     .conteinerConteudo h2 {
         font-size: 4rem;
