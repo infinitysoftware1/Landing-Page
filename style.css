@@ -92,7 +92,7 @@ nav ul li a {
     filter: brightness(30%);
     height: 100vh;
     object-fit: cover;
-    object-position: center;
+    object-position: left;
     align-items: center;
     justify-content: center;
     display: flex;
