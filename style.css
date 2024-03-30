@@ -88,28 +88,35 @@ nav ul li a {
 
 .banner {
     width: 100%;
-    height: auto;
-    display: block;
     filter: brightness(30%);
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+
 }
+
 
 #conteudo {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 5%;
     color: white;
-    width: 50%;
-
+    width: 90%;
+    display: flex;
 }
+.boxes{
+    width: 100%;
+}
+
 
 #conteudo h2 {
     font-family: var(--fonte-azonix);
     margin-bottom: 40px;
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 #conteudo p {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: var(--fonte-montserrat);
 }
 
@@ -478,8 +485,14 @@ nav ul li a {
         height: 90vh;
     }
     #conteudo{
+        display: flex;
+        flex-direction: column;
         top: 10%;
-        width: 70%;
+        align-items: center;
+        gap: 50px;
+    }
+    .boxes{
+        width: 100%;
     }
     #conteudo h2 {
         font-size: 2.5rem;
@@ -487,7 +500,7 @@ nav ul li a {
 
     #conteudo p {
         font-size: 2.2rem;
-        line-height: 3.5rem;
+        line-height: 3rem;
     }
     .conteinerConteudo h2 {
         font-size: 4rem;
@@ -607,10 +620,14 @@ nav ul li a {
         height: 90vh;
     }
     #conteudo{
+        display: flex;
+        flex-direction: column;
         top: 10%;
-        width: 70%;
-        line-height: 3.5rem;
-
+        align-items: center;
+        gap: 50px;
+    }
+    .boxes{
+        width: 100%;
     }
 
     #conteudo h2 {
@@ -716,20 +733,26 @@ nav ul li a {
         object-fit: cover;
     }
     #conteudo{
-        width: 60%;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 10%;
+        gap: 50px;
+    }
+    .boxes{
+        width: 70%;
     }
     #conteiner1{
         height: 90vh;
     }
 
     #conteudo h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #conteudo p {
-        font-size: 3rem;
-        line-height: 3.9rem;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
     }
 
     .conteinerConteudo h2 {
@@ -877,4 +900,5 @@ nav ul li a {
     .links{
         font-size: 15px;
     }
+    
 }
