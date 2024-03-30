@@ -20,13 +20,13 @@ header {
     background-color: var(--cor-fundo);
     display: flex;
     align-items: center;
-    padding: 15px;
     position: relative;
+    height: 100px;
     justify-content: space-between;
 }
 
 .logoTipo {
-    width: 80px;
+    max-width: 100%;
     margin-left: 20px;
 }
 
