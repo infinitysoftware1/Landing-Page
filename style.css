@@ -160,7 +160,7 @@ nav ul li a {
 }
 
 .arrow {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: var(--cor-fundo);
     align-items: center;
     display: flex;
@@ -168,13 +168,9 @@ nav ul li a {
     border-radius: 50%;
     color: #ffffff;
     padding: 20px;
-    transition: transform .3s ease-in-out;
 }
 
-.arrow:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-}
+
 
 
 #conteiner3 {
